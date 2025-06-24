@@ -24,9 +24,9 @@ def cadastro_tarefa():
 
     conn = mysql.connector.connect(
         host="localhost",
-        user="pedro",
+        user="SEU_USUARIO",
         port="3306",
-        password="senha123",
+        password="SUA_SENHA",
         database="tarefas_db"
     )
 
